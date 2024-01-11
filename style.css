@@ -39,6 +39,16 @@ padding: 0;
 outline: #30CCA7 solid 10px;
 }
 
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  }
+  
+.tools p {
+  text-align: left;
+}
+
+
 .content {
  max-width: 500px;   
  margin: 0 auto;
@@ -47,6 +57,28 @@ outline: #30CCA7 solid 10px;
 section {
     height: 600px;
     padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+  width: 300px;
+  height: 150px;
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.skills p {
+  text-align: left;
+  font-family: sans-serif;
+}
+
+h3 { 
+  text-decoration: underline;
+  font-family: sans-serif;
+
 }
 
 h1 {
@@ -67,7 +99,7 @@ h2 { font-family: sans-serif;
 }
 
 p { 
-    font-family: sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     text-align: center; 
 }
@@ -78,6 +110,7 @@ button {
   margin-left: auto;
   margin-right: auto;
   }
+  
 
   footer {
     background-color: #999595;
@@ -96,8 +129,8 @@ button {
 
    .contact-info {
     position:absolute;
-    margin-left: -3%; 
-    left:50%;
-    bottom: -7%;
+    margin-left: auto;
+  margin-right: auto;
   }
   
+ 
