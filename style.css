@@ -37,10 +37,12 @@ background-color:#30CCA7;
 margin: 0;
 padding: 0;
 outline: #30CCA7 solid 10px;
+
 }
 
 .boxes {
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
   }
   
@@ -55,11 +57,168 @@ outline: #30CCA7 solid 10px;
 }
 
 section {
-    height: 600px;
+    height: 1500px;
     padding: 25px;
-    display: flex;
-    justify-content: space-between;
+    
 }
+
+section h1 {
+  padding: 1.5%;
+  
+}
+
+.movingup {
+  margin-top: 5%;
+  
+  
+  
+  
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+  margin-top: 10%;
+}
+
+
+
+
+
+.movingup h2 {
+  font-weight: normal;
+  text-align: center;
+  padding: 1%;
+  background-color:#F2ED82;
+  width: 7%;
+  height: 9px;
+  margin-left:1%;
+  
+  
+
+
+}
+
+.movingup p {
+  text-align: left;
+  width: 900px;
+  height: 68px;
+  padding: 1%;
+  margin-top: 2%;
+  
+  
+  
+  
+}
+
+.movingup img {
+  display: block;
+  margin-left: 80%;
+  margin-top: -15%;
+}
+
+.movingup button {
+  float: center;
+  width: 150px;
+  height: 40px;
+  background-color: #FFFFFF;
+  font-size: medium;
+  margin-top: -10%;
+  margin-left:43%; 
+
+}
+
+
+
+.youngatheart {
+  margin-top: 3%;
+  display: flexbox;
+  
+  
+  
+}
+
+
+
+
+
+
+
+.youngatheart h2 {
+  font-weight: normal;
+  text-align: center;
+  padding: 1%;
+  background-color:#F2ED82;
+  width: 10%;
+  height: 9px;
+  float: right;
+  margin-right:1%;
+  margin-bottom: 1%;
+  
+
+
+}
+
+.youngatheart p {
+  text-align: right;
+  float: right;
+  width: 900px;
+  height: 68px;
+  padding: 1%;
+  margin-top: 4%;
+  margin-right: -13%;
+ 
+  
+  
+}
+
+.youngatheart img {
+  display: block;
+  margin-right: 80%;
+  margin-bottom: -15%;
+}
+
+.youngatheart button {
+  float: center;
+  width: 150px;
+  height: 40px;
+  background-color: #FFFFFF;
+  font-size: medium;
+
+  margin-left:49%; 
+ 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .card {
   width: 300px;
@@ -72,7 +231,14 @@ section {
 
 .skills p {
   text-align: left;
-  font-family: sans-serif;
+}
+
+.skills {
+  margin-left: 1%;
+}
+
+.tools {
+  margin-left: 1%;
 }
 
 h3 { 
@@ -99,7 +265,7 @@ h2 { font-family: sans-serif;
 }
 
 p { 
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
     text-align: center; 
 }
